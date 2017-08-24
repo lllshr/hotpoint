@@ -1,7 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3903f06-3d01-470a-9dc2-3e87db0fa212" name="Default" comment="" />
+    <list default="true" id="a3903f06-3d01-470a-9dc2-3e87db0fa212" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CorWord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/event_config.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/GaussianNB_20170807.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/dt_entropy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/dt_gini.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy10.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy100.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy1000.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy15.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy150.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy20.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy200.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy25.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy250.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy30.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy300.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy35.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy350.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy40.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy400.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy45.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy450.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy50.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy500.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy55.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy550.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy60.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy600.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy65.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy650.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy70.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy700.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy75.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy750.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy80.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy800.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy85.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy850.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy90.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy900.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy95.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_entropy950.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini10.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini100.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini1000.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini15.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini150.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini20.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini200.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini25.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini250.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini30.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini300.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini35.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini350.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini40.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini400.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini45.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini450.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini500.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini55.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini550.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini60.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini600.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini65.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini650.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini70.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini700.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini75.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini750.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini80.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini800.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini85.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini850.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini90.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini900.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini95.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/rf_gini950.0.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/svr_linear_100.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/svr_poly_3_100.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model_save/svr_rbf_0.2_100.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_gensim_custom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sentiment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stopwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tfidf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotWord.py" afterPath="$PROJECT_DIR$/HotWord.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assist/textprocessing.py" afterPath="$PROJECT_DIR$/assist/textprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+    </list>
     <ignored path="hotpot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +117,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CorWord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CorWord.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
-              <folding />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="event.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/event.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7912088">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="1.451613">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,21 +167,9 @@
         <entry file="file://$PROJECT_DIR$/assist/textprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="78" selection-start-line="79" selection-start-column="74" selection-end-line="79" selection-end-column="78" />
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,11 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotWord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HotWord.py">
+      <file leaf-file-name="hotword.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotword.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -122,21 +206,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hotword_classic.py" />
-        <option value="$PROJECT_DIR$/hotword.py" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/focusquestion.py" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/assist/textprocessing.py" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/客户询问语句" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/newwords.txt" />
-        <option value="$PROJECT_DIR$/HotWord.py" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/train.py" />
         <option value="$PROJECT_DIR$/newwords.txt" />
         <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/../hotpotClassifier/focusquestion_1.py" />
+        <option value="$PROJECT_DIR$/HotWord.py" />
+        <option value="$PROJECT_DIR$/hotword.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/assist/textprocessing.py" />
+        <option value="$PROJECT_DIR$/event.py" />
       </list>
     </option>
   </component>
@@ -146,7 +235,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -201,6 +290,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotpot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model_save" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotpot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -210,14 +327,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\hotpoint" />
       <recent name="D:\Work\004_基于海量语音的客户诉求热点分析\Code\hotpot" />
       <recent name="D:\Work\004_基于海量语音的客户诉求热点分析\Code\hotpot\model_save" />
       <recent name="D:\Work\004_基于海量语音的客户诉求热点分析\Code\hotpotClassifier\model_save" />
       <recent name="D:\Work\004_基于海量语音的客户诉求热点分析\Code\hotpotClassifier" />
-      <recent name="D:\Work\004_基于海量语音的客户诉求热点分析\Code\hotpotClassifier\assist" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.focusquestion_1">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="focusquestion_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,8 +551,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.focusquestion_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.focusquestion_1" />
         <item index="2" class="java.lang.String" itemvalue="Python.train (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python.focusquestion" />
         <item index="4" class="java.lang.String" itemvalue="Python.textprocessing" />
@@ -456,26 +573,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19642857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20785597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20785597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34369886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4019608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4869281" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4019608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,24 +629,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/../hotpotClassifier/focusquestion.py</url>
           <line>18</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/train.py</url>
-          <line>168</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/train.py</url>
-          <line>164</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/../hotpotClassifier/focusquestion_1.py</url>
@@ -592,7 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
@@ -604,7 +706,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -616,7 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
@@ -628,7 +730,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,7 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
@@ -652,7 +754,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,14 +766,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -692,7 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/hotword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
@@ -804,41 +906,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newwords.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3821" column="8" selection-start-line="3821" selection-start-column="5" selection-end-line="3821" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assist/textprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="78" selection-start-line="79" selection-start-column="74" selection-end-line="79" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,23 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85714287">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event_config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -900,14 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CorWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../hotpotClassifier/qword.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5991091">
@@ -925,21 +971,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotWord.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assist/textprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7912088">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.451613">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

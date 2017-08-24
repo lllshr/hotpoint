@@ -1,52 +1,80 @@
 import os
-from sklearn.externals import joblib
+import re
+import cx_Oracle
+import numpy as np
 from assist import textprocessing
-import HotWord
-import CorWord
-import mysql
+import hotword
+import event
+import fileiter
 
 
-DOC_PATH = r'D:\Work\003_语义语料库\20170717_语料标注\标注结果-20170814\已完成\train\1_查询电费'
+# DOC_PATH = r'/home/pythonUser/transContent'
+DOC_PATH = r'C:\Users\l\Desktop\模型部署\hotpoint\text'
 if __name__ == '__main__':
-    class_dic = {}
-    with open('event_config.txt', 'r', encoding='utf-8-sig') as config:
-        for line in config.readlines():
-            if len(line.split(':')) == 2:
-                class_dic.setdefault(int(line.split(':')[0]), line.split(':')[1].strip())
+    pat = '(\d{5,})_(\d{4}-\d{2}-\d{2})-(\d{2})-\d{2}-\d{2}_(.*).txt'
 
-    # 读取数据
-    print('读取语料...')
-    tp = textprocessing.TextProcessing('newwords.txt', 'stopwords.txt')
-    corpus = tp.loadDir(DOC_PATH, seg=True, stop=True)
-    # 连接数据库
-    # db = mysql.DbOperation('localhost', 'root', 'liulili', 'hotpot', 3306)
+    # conn = cx_Oracle.connect('yyfxdb', 'yyfxdb', '10.90.85.24:1621/xe')
+    # cursor = conn.cursor()
+    conn = None
+    cursor = None
 
-    # 获取热词
-    hw = HotWord.HotWord()
-    hot_word = hw.get_hotword(list(corpus.values()), topK=100)
-    print(hot_word)
-    # 入库存储
-    # hw.save2db(hot_word, db)
+    hw = hotword.HotWord()
 
-    # 关联词语
-    minSup = max(2, int(len(corpus.values())*0.01))
-    cw = CorWord.CorWord(minSup)
-    cor_word = cw.get_corword(list(corpus.values()))
-    print(cor_word)
-    # 入库存储
-    # cw.save2db(cor_word, db)
+    eve = event.Event()
+    eve.loadmodel()
 
-    # 热点
-    vectorizer = joblib.load('model_save/vec.m')
-    transformer = joblib.load('model_save/tfidf.m')
-    clf = joblib.load('model_save/rf_gini50.0.m')
-    for file_name in os.listdir(DOC_PATH):
-        with open(os.path.join(DOC_PATH, file_name), 'r', encoding='utf-8-sig') as file:
-            word_list = tp.textprocess(''.join([line.strip() for line in file.readlines()]), seg=True, stop=True)
-            tfidf = transformer.transform(vectorizer.transform([' '.join(word_list)]))
-            weight = tfidf.toarray()
-            result = clf.predict(weight)
-            print(class_dic.get(result[0]))
+    for path in os.listdir(DOC_PATH):
+        if os.path.isdir(os.path.join(DOC_PATH, path)) and re.match('\d{8}', path):
+            trans_file = fileiter.FileIter(os.path.join(DOC_PATH, path))  # 内容列表
+            for file in trans_file:
+                # print(file[0], file[1])
 
-    # 断开数据库
-    # db.close()
+                desc = re.findall(pat, file[0])
+                if desc and len(desc[0]) != 4:
+                    continue
+
+                area_no = desc[0][0]
+                record_date = desc[0][1]
+                record_clock = desc[0][2]
+                record_id = desc[0][3]
+
+                word_list = np.array(file[1])
+                word_added = []
+                for word in word_list:
+                    hw.add_word_freq(word, area_no=area_no, sta_clock=record_clock)
+                    if word not in word_added:
+                        hw.add_word_wkst(word, area_no=area_no, sta_clock=record_clock)
+                    word_added.append(word)
+
+
+                event_code = eve.classify(file[1])
+                eve.save2db(record_id, event_code, '', area_no, record_date, record_clock, cursor, conn)
+            hotwords = hw.get_hotwords(100)
+            hw.save2db(hotwords, path, cursor, conn)
+            print(hotwords)
+            hw = hotword.HotWord()
+    #
+    # for path in os.listdir(DOC_PATH):
+    #     if os.path.isdir(os.path.join(DOC_PATH, path)) and re.match('\d{4}-\d{2}-\d{2}', path):
+    #         corpus = tp.loadDir(DOC_PATH, seg=True, stop=True)
+    #         hw = hotword.HotWord()
+    #         for area_no_key, area_no_val in corpus.values():
+    #             for sta_date_key, sta_date_val in area_no_val.values():
+    #                 for sta_clock_key, sta_clock_val in sta_date_val.values():
+    #
+    #         hot_word = hw.get_hotword(list(corpus.values()), topK=100)
+    #         hw.save2db(hot_word, area_no, sta_date, sta_clock, cursor, conn)
+    #
+    #         for file in os.listdir(os.path.join(DOC_PATH, path)):
+
+    #
+    #
+    #
+    #
+    #
+    #
+    #
+
+    #
+    # cursor.close
+    # conn.close()
